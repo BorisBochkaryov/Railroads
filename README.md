@@ -1,6 +1,5 @@
 About
 ========
-***
 
 The repository contains a solution to the "Railroads" problem. The conditions of the task are specified in the file [Railroads.pdf](./Railroads.pdf)
 
@@ -9,7 +8,6 @@ You can use Azul Platform Core distributive: [Azul.com](https://www.azul.com/dow
 
 Algorithm
 ========
-***
 
 Get the coaches and enter to the dead-end station (to the `Stack<Integer> station`).
 On side `A` the coaches are in the sequence `1, 2, ..., N`. 
@@ -19,7 +17,6 @@ and then moving the coaches with number `current` to side `B`.
 
 Building
 ========
-***
 
 Script for build:
 ```bash
@@ -41,7 +38,6 @@ OpenJDK 64-Bit Server VM Zulu17.30+15-CA (build 17.0.1+12-LTS, mixed mode, shari
 
 Running
 ===
-***
 
 For run you need check available [input.txt](./input.txt) with numbers from condition. 
 
@@ -68,7 +64,6 @@ Example [input.txt](./input.txt):
 
 Testing
 ========
-***
 
 For run test you need check available directory [tests](./tests) with input-*.txt and output-*.txt files.
 
