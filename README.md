@@ -74,5 +74,8 @@ $ ./run-tests.sh
 
 This implementation of the solution has several tests:
 * Test #1 with file from conditions;
+  * The program should normally work for data from the condition. The test implements the sending of a file from the condition and comparison with the needed output.
 * Test #2 without file for check exception from program;
+  * The program should report problems/send exception that arise during operation. For example, if there is no file from which to read data.
 * Test #3 without conditions (with 0 in first line) file for check correct end of program.
+  * The program should run normally if the input file is empty or only have 0.
